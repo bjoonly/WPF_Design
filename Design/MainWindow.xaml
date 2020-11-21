@@ -1,0 +1,365 @@
+﻿<Window x:Class="Design.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Design"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1500">
+ 
+        <DockPanel  >
+            
+
+            <DockPanel  DockPanel.Dock="Top" LastChildFill="False" Background="#FF0078D5">
+
+                <Label DockPanel.Dock="Left"  Margin="5,5,10,5" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="icons8-квадратное-меню-50(1).png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <TextBlock DockPanel.Dock="Left" Padding="5,0,0,0" FontSize="16" Foreground="White" VerticalAlignment="Center" >SharePoint</TextBlock>
+
+                <TextBox  DockPanel.Dock="Left"  MinWidth="402" Height="29" Padding="45,4,4,4" Margin="437,3,0,3" TextAlignment="Left" FontFamily="Segoe UI Semilight" FontSize="13"  >Search this site</TextBox>
+
+                <Border DockPanel.Dock="Right" Margin="5" MinWidth="27"  Height="27" Background="#FFBFB934" CornerRadius="15"></Border>
+
+                <Label DockPanel.Dock="Right"  Margin="5,5,10,5" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="question.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <Label DockPanel.Dock="Right"  Margin="5,5,10,5" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="settings.png" Stretch="Uniform"/>
+                    </Label.Background>
+
+                </Label>
+
+                <Label DockPanel.Dock="Right"  Margin="5,5,10,5" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="bell.png" Stretch="Uniform"/>
+                    </Label.Background>
+
+
+                </Label>
+
+            </DockPanel>
+
+
+            <DockPanel DockPanel.Dock="Top" Background="#FF16717B" LastChildFill="False">
+
+                <Label DockPanel.Dock="Left"  Margin="25,10,10,10" Height="50" Width="50" Padding="3,5,5,5">
+                    <Label.Background>
+                        <ImageBrush ImageSource="logo.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <TextBlock DockPanel.Dock="Left" Margin="3" FontSize="22" Foreground="#FFE6E6E6" VerticalAlignment="Center" >The Perspective</TextBlock>
+
+                <TextBlock DockPanel.Dock="Left" Margin="20,5,0,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >Who we are</TextBlock>
+                <Label DockPanel.Dock="Left"  Margin="5,10,10,0" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="checkkedmark.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <TextBlock DockPanel.Dock="Left" Margin="20,5,0,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >What's happening</TextBlock>
+                <Label DockPanel.Dock="Left"  Margin="5,8,10,0" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="checkkedmark.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+                <TextBlock DockPanel.Dock="Left" Margin="20,5,0,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >Find it</TextBlock>
+                <Label DockPanel.Dock="Left"  Margin="5,7,10,0" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="checkkedmark.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+                <TextBlock DockPanel.Dock="Left" Margin="20,5,0,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >Edit</TextBlock>
+
+                <TextBlock DockPanel.Dock="Right" Margin="5,5,50,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >Share site</TextBlock>
+                <Label DockPanel.Dock="Right"  Margin="0,5,0,0" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="share.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <TextBlock DockPanel.Dock="Right" Margin="5,5,25,0" FontSize="14" Foreground="#FFE6E6E6" VerticalAlignment="Center" >Not following</TextBlock>
+                <Label DockPanel.Dock="Right"  Margin="0,5,0,0" Height="38" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="starred.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+            </DockPanel>
+
+            <DockPanel DockPanel.Dock="Top" LastChildFill="False" Background="#FFF4F4F4" >
+                <Label DockPanel.Dock="Left"  Margin="15,9,0,5" Height="20" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="plus.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <TextBlock DockPanel.Dock="Left" Margin="5" FontSize="14" Foreground="#FF646463" VerticalAlignment="Center" >New</TextBlock>
+
+                <Label DockPanel.Dock="Left"  Margin="0,9,0,5" Height="20" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="checkkedmark1.png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+
+                <Label DockPanel.Dock="Left"  Margin="20,5,0,5" Height="20" Width="20">
+                    <Label.Background>
+                        <ImageBrush ImageSource="settings(1).png" Stretch="Uniform"/>
+                    </Label.Background>
+                </Label>
+                <TextBlock DockPanel.Dock="Left" Margin="5" FontSize="14" Foreground="#FF646463" VerticalAlignment="Center" >Page details</TextBlock>
+
+                <Border DockPanel.Dock="Right" Width="76" Margin="4,1,15,0
+                        " Height="33" Background="#FF16717B">
+                    <StackPanel Orientation="Horizontal">
+                        <Label HorizontalAlignment="Left"  Margin="10,5,0,5" Height="15" Width="15">
+                            <Label.Background>
+                                <ImageBrush ImageSource="pencil.png" Stretch="Uniform"/>
+                            </Label.Background>
+                        </Label>
+                        <TextBlock  Margin="5" FontSize="14" Foreground="White" VerticalAlignment="Center" FontWeight="Bold" >Edit</TextBlock>
+                    </StackPanel>
+                </Border>
+                <TextBlock DockPanel.Dock="Right" Margin="5" Foreground="#FF646463" VerticalAlignment="Center" >Published 9/26/2019</TextBlock>
+
+            </DockPanel>
+            
+            <ScrollViewer  VerticalScrollBarVisibility="Visible" >
+                <Grid Margin="50,3,50,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="1*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Background="#FFF2F9FB" Margin="20,0,0,0" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="119*"></RowDefinition>
+                            <RowDefinition Height="89*"></RowDefinition>
+                            <RowDefinition Height="441*"></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        <Border Margin="20" BorderBrush="#FFC7C2C2" BorderThickness="1" >
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="1.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                                    <ColumnDefinition Width="3*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <TextBlock Margin="10,5,0,5" Grid.Column="0" FontSize="13" Foreground="#FF3B3E40" Grid.ColumnSpan="3">Redmond, United States</TextBlock>
+                                <Label Grid.Row="1" Grid.RowSpan="2" Grid.Column="0" DockPanel.Dock="Right"  Margin="10
+                                       ,5,10,5" Height="42" Width="42">
+                                    <Label.Background>
+                                        <ImageBrush ImageSource="moon(1).png" Stretch="Uniform"/>
+                                    </Label.Background>
+                                </Label>
+                                <TextBlock Grid.Column="1" Grid.Row="1" Margin="5" Grid.RowSpan="2" Foreground="#FF2E2E2E" FontSize="30" >34</TextBlock>
+                                <TextBlock Grid.Column="2" Grid.Row="1"  VerticalAlignment="Bottom"  Foreground="#FF2E2E2E" FontSize="12" >F</TextBlock>
+                                <TextBlock Grid.Column="3" Grid.Row="1"  VerticalAlignment="Bottom" Foreground="#FF2E2E2E" FontSize="12" >Clear</TextBlock>
+                                <TextBlock Grid.Column="3" Grid.Row="2" VerticalAlignment="Center"  Margin="3,0,10,0" Foreground="#FFC5C5C5" FontSize="12" >47/31</TextBlock>
+                                <TextBlock Grid.Column="4" Grid.Row="2"  VerticalAlignment="Center" Margin="0,0,10,0"   Foreground="#FFC5C5C5" FontSize="12" >10/29/2019</TextBlock>
+                                <TextBlock Grid.Column="5" Grid.Row="2"  VerticalAlignment="Center"  Margin="7,7,20,7"  Foreground="#FF57595B" FontSize="11" >MSN Weather</TextBlock>
+                            </Grid>
+                        </Border>
+
+                        <Grid   Grid.Row="1" Margin="20,30,20,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="6*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+
+                            <TextBlock Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" VerticalAlignment="Bottom"  FontSize="18" Margin="10,0,0,0" Foreground="#FFA1A8A8">My news</TextBlock>
+
+
+                            <Label Grid.Row="1" Grid.Column="0"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10
+                                       ,10,5,5" Height="20" Width="20">
+                                <Label.Background>
+                                    <ImageBrush ImageSource="plus.png" Stretch="Uniform"/>
+                                </Label.Background>
+                            </Label>
+
+                            <Label Grid.Row="1" Grid.Column="2"  HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="5,10,5,5"  Height="20" Width="20">
+                                <Label.Background>
+                                    <ImageBrush ImageSource="checkkedmark1.png" Stretch="Uniform"/>
+                                </Label.Background>
+                            </Label>
+
+                            <TextBlock Grid.Column="1" Grid.Row="1" Margin="5,10,5,5" Foreground="#FF2E2E2E" Width="30">Add</TextBlock>
+                            <TextBlock   Grid.Column="3" FontSize="13" HorizontalAlignment="Right" VerticalAlignment="Bottom"  Foreground="#FF0099BB">See all</TextBlock>
+
+                        </Grid>
+                        <WrapPanel Margin="20" Orientation="Vertical" Grid.Row="2">
+
+                            <Border  BorderBrush="#FFC7C2C2" BorderThickness="0,0,0,1" Margin="0" Padding="0,0,0,35">
+                                <DockPanel>
+                                    <Label DockPanel.Dock="Left" VerticalAlignment="Top" Height="80"  Width="110" Margin="0,5,0,0" >
+                                        <Label.Background>
+                                            <ImageBrush ImageSource="firstRight.png" Stretch="Uniform"/>
+                                        </Label.Background>
+                                    </Label>
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top" Foreground="#FF707070" FontSize="14" Width="230" Margin="15,0,0,5">The importance of branding at Contoso</TextBlock>
+                                    <TextBlock TextWrapping= "WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="12" Margin="15,0,0,5">At the heart of branding at Cont...</TextBlock>
+
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="10" Margin="15,0,0,5"><Bold Foreground="#FF707070" > Erwin van Hunen</Bold> September 26</TextBlock>
+                                </DockPanel>
+                            </Border>
+
+                            <Border  BorderBrush="#FFC7C2C2" BorderThickness="0,0,0,1" Margin="0" Padding="0,18,0,35">
+                                <DockPanel>
+                                    <Label DockPanel.Dock="Left" VerticalAlignment="Top" Height="80"  Width="110" >
+                                        <Label.Background>
+                                            <ImageBrush ImageSource="secondRight.png" Stretch="Uniform"/>
+                                        </Label.Background>
+                                    </Label>
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top" Foreground="#FF707070" FontSize="14" Width="230" Margin="15,0,0,5">Why simplicity matters</TextBlock>
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="12" Width="230" Margin="15,0,0,5">In order to give customers fresh and clear experiences with their...</TextBlock>
+
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="10" Margin="15,0,0,5"><Bold Foreground="#FF707070" > Erwin van Hunen</Bold> September 26</TextBlock>
+                                </DockPanel>
+                            </Border>
+
+
+                            <Border  BorderBrush="#FFC7C2C2" BorderThickness="0,0,0,1" Margin="0" Padding="0,18,0,35">
+                                <DockPanel>
+                                    <Label DockPanel.Dock="Left" VerticalAlignment="Top" Height="80"  Width="110" >
+                                        <Label.Background>
+                                            <ImageBrush ImageSource="thirdRight.png" Stretch="Uniform"/>
+                                        </Label.Background>
+                                    </Label>
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top" Foreground="#FF707070" FontSize="14" Width="230" Margin="15,0,0,5">2019 sales leadership award</TextBlock>
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="12" Width="230" Margin="15,0,0,5">The sales leadership recognizes high performing texhnology sale...</TextBlock>
+
+                                    <TextBlock TextWrapping="WrapWithOverflow" DockPanel.Dock="Top"  Foreground="#FFC5C5C5" FontSize="10" Margin="15,0,0,5"><Bold Foreground="#FF707070" > Erwin van Hunen</Bold> September 26</TextBlock>
+
+
+                                </DockPanel>
+                            </Border>
+
+                        </WrapPanel>
+
+                    </Grid>
+
+                    <WrapPanel Grid.Row="1"  >
+                        <Border Margin="0,0,13,0"  BorderBrush="#FFC7C2C2" BorderThickness="1" Width="230">
+                            <WrapPanel Orientation="Vertical" >
+                                <Label HorizontalAlignment="Left" Height="130"  Width="230" >
+                                    <Label.Background>
+                                        <ImageBrush ImageSource="firstImg.png" Stretch="Uniform"/>
+                                    </Label.Background>
+                                </Label>
+                                <TextBlock TextWrapping="WrapWithOverflow" FontSize="15" Foreground="#FF707070">Patti announces flagship store opening</TextBlock>
+                            </WrapPanel>
+                        </Border>
+
+                        <Border Margin="0,0,13,0"  BorderBrush="#FFC7C2C2" BorderThickness="1" Width="230">
+                            <WrapPanel Orientation="Vertical" >
+                                <Label HorizontalAlignment="Left" Height="130"  Width="240" >
+                                    <Label.Background>
+                                        <ImageBrush ImageSource="secondImage.png" Stretch="Uniform"/>
+                                    </Label.Background>
+                                </Label>
+                                <TextBlock TextWrapping="WrapWithOverflow" Foreground="#FF707070" FontSize="15">The importance of branding at Contoso</TextBlock>
+                            </WrapPanel>
+                        </Border>
+
+                        <Border Margin="0,0,13,0"  BorderBrush="#FFC7C2C2" BorderThickness="1" Width="230">
+                            <WrapPanel Orientation="Vertical" >
+                                <Label HorizontalAlignment="Left" Height="130"  Width="230" >
+                                    <Label.Background>
+                                        <ImageBrush ImageSource="thirdImg.png" Stretch="Uniform"/>
+                                    </Label.Background>
+                                </Label>
+                                <TextBlock TextWrapping="WrapWithOverflow" Foreground="#FF707070" FontSize="15">Our commitment to sustainability</TextBlock>
+                                <TextBlock TextWrapping="WrapWithOverflow" Foreground="#FFC5C5C5" FontSize="10" ><Bold Foreground="#FF707070"> Erwin van Hunen</Bold> September 26</TextBlock>
+                            </WrapPanel>
+                        </Border>
+
+                        <Border  BorderBrush="#FFC7C2C2" BorderThickness="1" Width="230">
+                            <WrapPanel Orientation="Vertical" >
+                                <Border BorderBrush="#FFC7C2C2" VerticalAlignment="Center" BorderThickness="0,0,0,1" Padding="15,30,0,30">
+                                    <TextBlock TextWrapping="WrapWithOverflow"  Foreground="#FF707070"  FontSize="12" MinWidth="215"  FontFamily="Segoe UI Semibold">One million drones sold in 2018</TextBlock>
+                                </Border>
+                                <Border VerticalAlignment="Center" BorderBrush="#FFC7C2C2" BorderThickness="0,0,0,1" Padding="15,30,0,30">
+                                    <TextBlock TextWrapping="WrapWithOverflow"  Foreground="#FF707070"  FontSize="12" MinWidth="200"  FontFamily="Segoe UI Semibold">Contoso partners with mon-profit to deli..</TextBlock>
+                                </Border>
+                            </WrapPanel>
+                        </Border>
+
+                    </WrapPanel>
+
+                    <Grid Margin="0,20,20,0" Grid.Column="0" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+                            <ColumnDefinition Width="Auto"></ColumnDefinition>
+
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+
+                        </Grid.RowDefinitions>
+                        
+                        <Label Grid.Column="0" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Row="0" Grid.RowSpan="2" Margin="0,0,3,6" MinHeight="368" MinWidth="481">
+                            <Label.Background>
+                                <ImageBrush ImageSource="firstCenter.png" Stretch="Uniform"/>
+                            </Label.Background>
+                        </Label>
+
+                        <Label Grid.Column="2"  Grid.Row="0"  MinHeight="181" MinWidth="239" Margin="0,0,3,3" VerticalAlignment="Center">
+                            <Label.Background>
+                                <ImageBrush ImageSource="secondCenter.png" Stretch="Uniform"/>
+                            </Label.Background>
+                        </Label>
+
+                        <Label Grid.Column="2"  Grid.Row="1" MinHeight="178"  Margin="0,0,3,3" VerticalAlignment="Top">
+                            <Label.Background>
+                                <ImageBrush ImageSource="thirdCenter.png" Stretch="Uniform"/>
+                            </Label.Background>
+                        </Label>
+                        <Label Grid.Column="3"  Grid.Row="0" VerticalAlignment="Center" Margin="0,0,0,3" MinWidth="237" MinHeight="181">
+                            <Label.Background>
+                                <ImageBrush ImageSource="forthCenter.png" Stretch="UniformToFill"/>
+                            </Label.Background>
+                        </Label>
+                        <Label Grid.Column="3"  Grid.Row="1" VerticalAlignment="Top" MinHeight="177">
+                            <Label.Background>
+                                <ImageBrush ImageSource="fifthCenter.png" Stretch="UniformToFill"/>
+                            </Label.Background>
+                        </Label>
+                    </Grid>
+
+                </Grid>
+            </ScrollViewer>
+        </DockPanel>
+  
+</Window>
